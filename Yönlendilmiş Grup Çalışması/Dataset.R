@@ -43,7 +43,7 @@ kurtosis(data$Parenting_Style)   #4.6887
 #deðiþkenlerin basýklýk katsayýlarý incelendiðinde
 #hepsinin 3'den büyük olduðu görülmektedir bu durum grafiklerde 
 #uç noktalarýn olduðunu göstermektedir.
-par(mfrow= c(2:3))
+par(mfrow= c(2:2))
 hist(data$Aggression)
 hist(data$Television)
 hist(data$Computer_Games)
